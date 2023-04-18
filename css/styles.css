@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* H1 */
+
+.invisible {
+    display: none;
+  }
+/*titulos de las paginas*/
+
+.titulospaginas{
+background-color: #091f54;
+color: white;
+margin-bottom: 0;
+text-align: end;
+line-height: 3.4rem;
+padding-right: 1rem;
+}
+
+
+/*header*/
+.nav-link {
+    color: #091f54;
+}
+
+.nav-link:hover {
+    color: #936a1b;
+}
+
+.navbar-nav .nav-link.active {
+    color: #091f54;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #936a1b;
+}
+
+.navbar-toggler {
+    border-radius: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+
+}
+/*fin del header*/
+/*footer*/
+#derechosdeautor{
+    color: black;
+
+}
+
+/*fin del footer*/
+
+/* pagina index*/
+.carousel {
+    max-width: 100%;
+    max-height: 20%;
+  }
+
+#subir {color: #091f54;}
+
+#subir:hover { 
+    color: #936a1b;
+}
+.header-contacto:hover {
+    color: #936a1b;
+}
+/*fin del index*/
+
+/* pagina equipo*/
+
+#tituloequipo{
+    color: #091f54 ;
+}
+/*fin pagina equipo*/
+/* pagina equipo*/
+
+.card-title{
+    color: #936a1b;
+}
+
+/*productos oficiales*/
+
+/*fin pagina productos oficiales*/
+
+/*videos*/
+
+/*fin pagina videos*/
+
+
+/*contacto*/
+
+/*fin pagina contacto*/
