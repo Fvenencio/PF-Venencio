@@ -16,9 +16,12 @@ color: white;
 margin-bottom: 0;
 text-align: end;
 line-height: 3.4rem;
-padding-right: 1rem;
+padding-right: 0.1rem;
 }
 
+#barradearriba{
+    background-color: #091f54;
+}
 
 /*header*/
 .nav-link {
