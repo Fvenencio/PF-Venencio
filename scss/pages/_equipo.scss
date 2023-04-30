@@ -1,7 +1,11 @@
 #tituloequipo {
     color: $colorazul;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     color: $colororo;
-  }
+}
+
+.card-img-top {
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.5);
+}

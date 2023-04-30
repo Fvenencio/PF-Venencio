@@ -1,0 +1,21 @@
+$shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+@mixin shadow {
+    box-shadow: $shadow;
+}
+
+@mixin transition($property: all, $duration: 0.3s, $ease: ease-in-out) {
+    transition: $property $duration $ease;
+}
+
+.embed-responsive {
+    @include shadow;
+    background-color: $colorazul;
+    color: #fff;
+    @include transition;
+
+    &::hover {
+        background-color: $colororo;
+        @include shadow;
+    }
+}
