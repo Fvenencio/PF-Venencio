@@ -1,0 +1,12 @@
+#derechosdeautor {
+    color: black;
+}
+
+#subir {
+    color: $colorazul;
+
+    &:hover {
+        color: $colororo;
+    }
+
+}

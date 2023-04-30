@@ -1,0 +1,27 @@
+.invisible {
+    opacity: 0;
+}
+
+.nav-link {
+    color: $colorazul;
+
+    &:hover {
+        color: $colororo;
+    }
+}
+
+.navbar-nav .nav-link.active {
+    color: $colorazul;
+
+    &:hover {
+        color: $colororo;
+    }
+}
+
+.navbar-toggler {
+    border-radius: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+}

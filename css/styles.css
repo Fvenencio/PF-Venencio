@@ -4,30 +4,21 @@
   box-sizing: border-box;
 }
 
-/* H1 */
-.invisible {
-  display: none;
-}
-
-/*titulos de las paginas*/
-.titulospaginas {
-  background-color: #091f54;
-  color: white;
-  margin-bottom: 0;
-  text-align: end;
-  line-height: 3.4rem;
-  padding-right: 0.1rem;
+body {
+  font-family: "lato", sans-serif;
 }
 
 #barradearriba {
-  background-color: #091f54;
+  background-color: colorazul;
 }
 
-/*header*/
+.invisible {
+  opacity: 0;
+}
+
 .nav-link {
   color: #091f54;
 }
-
 .nav-link:hover {
   color: #936a1b;
 }
@@ -35,7 +26,6 @@
 .navbar-nav .nav-link.active {
   color: #091f54;
 }
-
 .navbar-nav .nav-link.active:hover {
   color: #936a1b;
 }
@@ -48,48 +38,80 @@
   padding: 0;
 }
 
-/*fin del header*/
-/*footer*/
-#derechosdeautor {
-  color: black;
-}
-
-/*fin del footer*/
-/* pagina index*/
 .carousel {
   max-width: 100%;
   max-height: 20%;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  background-color: #936a1b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #936a1b;
+}
+
+.btn-primary {
+  background-color: #936a1b;
+  color: white;
+  border-color: #936a1b;
+}
+.btn-primary:hover {
+  background-color: #936a1b;
+  border-color: #936a1b;
+}
+
+#derechosdeautor {
+  color: black;
+}
+
 #subir {
   color: #091f54;
 }
-
 #subir:hover {
   color: #936a1b;
 }
 
-.header-contacto:hover {
-  color: #936a1b;
-}
-
-/*fin del index*/
-/* pagina equipo*/
 #tituloequipo {
   color: #091f54;
 }
 
-/*fin pagina equipo*/
-/* pagina equipo*/
 .card-title {
   color: #936a1b;
 }
 
-/*productos oficiales*/
-/*fin pagina productos oficiales*/
-/*videos*/
-/*fin pagina videos*/
-/*contacto*/
-/*fin pagina contacto*/
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-color: #ccc;
+}
+.form-control:focus {
+  border-color: #091f54;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #091f54;
+  border-color: #091f54;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
 
 /*# sourceMappingURL=styles.css.map */
